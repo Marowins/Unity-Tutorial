@@ -51,8 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BallController.cs" />
-     <Compile Include="Assets\CameraController.cs" />
+     <Compile Include="Assets\GameManager.cs" />
+     <Compile Include="Assets\Script\BallController.cs" />
+     <Compile Include="Assets\Script\CameraController.cs" />
+     <Compile Include="Assets\Script\Clear.cs" />
+     <Compile Include="Assets\Script\DLMove.cs" />
+     <Compile Include="Assets\Script\DLRotate.cs" />
+     <Compile Include="Assets\Script\OBMove.cs" />
      <Compile Include="Assets\Script\ScoreRotate.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Unity_uninstall/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
